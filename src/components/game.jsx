@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Dice from "./dice.jsx";
 import Player from "./player.jsx";
+import "../css/game.css";
 
 function Game({ targetScore }) {
   const [currentPlayer, setCurrentPlayer] = useState(1);
