@@ -49,8 +49,12 @@ function Game({ targetScore }) {
         />
       </div>
       <Dice currentRoll={currentRoll} />
-      <button onClick={rollDice}>Roll Dice</button>
-      <button onClick={hold}>Hold</button>
+      <button className="btn-roll" onClick={rollDice}>
+        Roll Dice
+      </button>
+      <button className="btn-hold" onClick={hold}>
+        Hold
+      </button>
     </div>
   );
 }

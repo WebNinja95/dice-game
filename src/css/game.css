@@ -12,3 +12,39 @@
   max-width: 600px;
   margin-bottom: 20px;
 }
+.btn-roll {
+  padding: 12px 20px;
+  background-color: #ddbf55; /* Gold color for contrast */
+  color: #2e3137; /* Dark text color for readability */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 30%;
+}
+
+.btn-roll:hover {
+  background-color: #e6c45e;
+  transform: scale(1.05);
+}
+
+/* Hold Button */
+.btn-hold {
+  padding: 12px 20px;
+  background-color: #2e3137;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 30%;
+}
+
+.btn-hold:hover {
+  background-color: #3a3d44;
+  transform: scale(1.05);
+}

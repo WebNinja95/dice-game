@@ -4,3 +4,26 @@
   align-items: center;
   height: 100vh;
 }
+.dice-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dice {
+  width: 30%;
+  height: auto;
+  object-fit: contain;
+}
+.player {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #2e3137;
+  color: #ffffff;
+}
+
+.active {
+  border: 2px solid #ddbf55;
+  box-shadow: 0 0 10px #ddbf55;
+}
